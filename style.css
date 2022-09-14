@@ -15,6 +15,7 @@ body {
 
 .link a {
   width: 300px;
+  position: center;
   height: 50px;
   border: solid 2.5px;
   border-radius: 21px;
@@ -44,151 +45,32 @@ body {
 
 .header h1 {
   font-size: 30px;
+  position: relative;
+  top: -170px;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: -170px;
 }
 
 .header img {
-  width: 200px;
-  height: 200px;
-  margin-top: 35px;
-  border: 2px solid rgba(255, 255, 255, 0.219);
+  width: 140px;
+  position: relative;
+  top: -140px;
+  height: 140px;
+  margin: 35px;
+  border: 2px solid rgba(192, 192, 192);
   border-radius: 100%;
+  z-index: 2;
 }
-
-.footer {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-}
-
-.footer i {
-  color: rgb(255, 255, 255);
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes colorRotate {
-  from {
-    color: #808080;
-  }
-  10% {
-    color: #ff0000;
-  }
-  50% {
-    color: #00ff00;
-  }
-  75% {
-    color: #eeff00;
-  }
-  100% {
-    color: #0000ff;
-  }
-}
-
-@keyframes colorRotate1 {
-  from {
-    color: #69c2e2;
-  }
-  10% {
-    color: #ff0000;
-  }
-  50% {
-    color: #00ff00;
-  }
-  75% {
-    color: #eeff00;
-  }
-  100% {
-    color: #0000ff;
-  }
-}
-.icon img {
-  width: 60px;
-  margin: 20px;
-  margin-left: -200px;
-  margin-top: -50px;
-  
-  
-}
-.icon2 img {
-  width: 50px;
-  margin: 25px;
-  margin-left: -200px;
-  margin-top: -150px;
-  
-  
-}@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: linear-gradient(90deg, #808080, #C0C0C0, #808080, #808080);
-  background-size: 500% 500%;
-  animation: gradient 16s ease infinite;
-  height: auto;
-  font-family: "Exo", sans-serif;
-}
-
-.link a {
-  width: 300px;
-  height: 50px;
-  border: solid 2.5px;
-  border-radius: 21px;
-  box-shadow: 3px 3px 4px;
-  margin-left: auto;
-  margin-top: 40px;
-  margin-right: auto;
-  margin-bottom: 25px;
-  text-align: center;
-  padding-top: 10px;
-  display: block;
-  font-size: 30px;
-  text-decoration: none;
-  color: rgb(34, 33, 33);
-}
-
-.link a:hover {
-  background-color: transparent;
-  color: white;
-}
-
-.header {
-  text-align: center;
-  font-size: large;
-  color: white;
-}
-
-.header h1 {
-  font-size: 30px;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-}
-
-.header img {
-  width: 200px;
-  height: 200px;
-  margin-top: 35px;
-  border: 2px solid rgba(255, 255, 255, 0.219);
-  border-radius: 100%;
+.header2 img {
+  width: 360px;
+  top: -20px;
+  position: relative;
+  height: 170px;
+  border : 2px solid rgba(192, 192 ,192);
+  border-radius: 0%;
+  margin-top: 60px;
+  border-radius: 2px;
+  z-index: 1;
 }
 
 .footer {
